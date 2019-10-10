@@ -83,7 +83,7 @@ func RunJob() {
 
 		index.Index(message.Id, message)
 	}
-	os.Exit(1)
+	//os.Exit(1)
 }
 
 func fetchPackagesData() (string, error) {
